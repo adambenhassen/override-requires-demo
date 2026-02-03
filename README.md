@@ -48,6 +48,7 @@ pnpm install
 | Guild | Guild | ❌ **BUG: Returns `"Payment processed for card: undefined"`** |
 
 ### Apollo Composition (+ any gateway)
+Stops at composition with these errors:
 
 ```
 [OVERRIDE_COLLISION_WITH_ANOTHER_DIRECTIVE] @override cannot be used on field
@@ -60,6 +61,7 @@ non-shareable in all of them
 ```
 
 ### Guild Composition + Apollo Gateway
+Composition succeeds, but Apollo Gateway rejects the supergraph at load time:
 
 ```
 Composition succeeded, starting gateway...
@@ -75,6 +77,7 @@ directive (@key, @provides, @requires) or to satisfy an interface
 Apollo Gateway catches the invalid supergraph at load time.
 
 ### Guild Composition + Guild Gateway
+composition succeeds and the gateway starts, but the query returns the wrong result:
 
 ```
 Composition succeeded, starting gateway...
