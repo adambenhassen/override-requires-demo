@@ -10,13 +10,13 @@
     "demo:guild-guild": "node guild-composition-guild-gateway.mjs"
   },
   "dependencies": {
-    "@apollo/composition": "^2.7.0",
-    "@apollo/gateway": "^2.7.0",
-    "@apollo/server": "^4.10.0",
-    "@apollo/subgraph": "^2.7.0",
-    "@graphql-hive/gateway": "^1.0.0",
-    "@theguild/federation-composition": "^0.21.0",
-    "graphql": "^16.8.0",
-    "graphql-yoga": "^5.0.0"
+    "@apollo/composition": "^2.13.0",
+    "@apollo/gateway": "^2.13.0",
+    "@apollo/server": "^4.11.0",
+    "@apollo/subgraph": "^2.13.0",
+    "@graphql-hive/gateway": "^2.0.0",
+    "@theguild/federation-composition": "^0.21.3",
+    "graphql": "^16.12.0",
+    "graphql-yoga": "^5.10.0"
   }
 }
