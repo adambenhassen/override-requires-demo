@@ -1,0 +1,22 @@
+{
+  "name": "override-requires-demo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Demo: Why @override cannot be used on fields with @requires",
+  "scripts": {
+    "demo:apollo-apollo": "node apollo-composition-apollo-gateway.mjs",
+    "demo:apollo-guild": "node apollo-composition-guild-gateway.mjs",
+    "demo:guild-apollo": "node guild-composition-apollo-gateway.mjs",
+    "demo:guild-guild": "node guild-composition-guild-gateway.mjs"
+  },
+  "dependencies": {
+    "@apollo/composition": "^2.7.0",
+    "@apollo/gateway": "^2.7.0",
+    "@apollo/server": "^4.10.0",
+    "@apollo/subgraph": "^2.7.0",
+    "@graphql-hive/gateway": "^1.0.0",
+    "@theguild/federation-composition": "^0.21.0",
+    "graphql": "^16.8.0",
+    "graphql-yoga": "^5.0.0"
+  }
+}
